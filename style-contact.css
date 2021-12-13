@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body
+{
+    display:inline;
+    justify-content: center ;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: gray;
+         
+} 
+h1{
+    font-size: 30pt;
+    text-align: center;
+    margin-top: 3%;
+    font-weight: bold;
+    margin-bottom: -6%; 
+    margin-top: 4%;
+    /* background-color: whitesmoke; */
+}
+h4{
+    text-align: center;
+    padding: 2%;
+}
+nav
+{
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    text-align: center;
+    background: whitesmoke;
+    position: fixed;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    background: black;
+    padding: 5px;
+    border-radius: 2px;
+    width: 90px;
+    text-align: center;
+}
+nav a:hover{
+    background: white;
+    color: rgb(0, 255, 64);
+
+}
+p
+{
+    text-align: center;
+}
+button
+{
+    padding: 8px;
+    margin: 10px;
+}
+
+footer
+{
+    clear: both;
+    position: relative;  
+    background-color: whitesmoke;
+   left: 65%;
+   margin-top: -6%;
+}
+footer a
+{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    
+    margin: 5px;
+}
+footer a:hover
+{
+    color: black;
+}
+
+.form-input button
+{
+    width: 200px;
+    background: rgb(255, 255, 255, 0);;
+    border: none;
+    border: 1px solid rgb(2, 2, 2, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px auto 10px;
+}
+.form-input button:hover
+{
+   background: rgb(56, 21, 233); 
+   color: black;
+   font-weight: bold;
+}
+.split {
+    height: 70%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: rgb(65, 149, 155);
+  }
+  
+  .left {
+    left: 0;
+    background-color: gray;
+    text-align: justify;
+   margin-top: 10%;
+  }
+  .right {
+    right: 0;
+    background-color: gray;
+    text-align: justify;
+    margin-top: 10%;
+  }
+   .centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } 
+   #contact-us{
+       font-size: 25pt;   
+   }

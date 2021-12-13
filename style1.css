@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-weight: bold;
+}
+
+body{
+    background-color: #F0F8FF;
+}
+h1{
+    font-size: 190%;
+    margin-left: -5%;
+}
+.slot_num{
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    background: green;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:none;
+    margin-top: 20%;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+#parking_lot{
+    background-color: gray;
+    margin-top: 1%;    
+}
+#logout_button a:hover{
+    color: white;
+    
+}
+#logout_button:hover{
+    background-color: black;
+}
+#logout_button a{
+    color: white;
+}
+#slot10{
+    margin-left: 160%;
+    background: linear-gradient(to bottom right, green 80%, blue 20%);
+}
+#slot9{
+    margin-left: 50%;
+    background: linear-gradient(to bottom right, green 80%, blue 20%);
+}
+#slot2{
+    background: linear-gradient(to bottom right, green 80%, blue 20%);
+}
+#slot7{
+    background: linear-gradient(to bottom right, green 80%, blue 20%);
+}
+#echeckbox{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    height: 15px;
+    width: 15px;
+}
+nav
+{
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    text-align: center;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    background: black;
+    padding: 5px;
+    border-radius: 2px;
+    width: 90px;
+    text-align: center;
+}
+nav a:hover{
+    background: white;
+    color: rgb(0, 255, 64);
+
+}
+footer
+{
+    clear: both;
+    position: relative;  
+    bottom: 121%;
+    margin-left: 65%;
+    margin-top: 1.5%;
+}
+footer a
+{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+footer a:hover
+{
+    color: black;
+}
+#copyright{
+    margin-bottom: 1%;
+}

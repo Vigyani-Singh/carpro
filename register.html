@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-index.css">
+    
+    <title>Welcome to Carping </title>
+    <script>
+        window.addEventListener("load",()=>{
+    const name =window.localStorage.Name;
+     document.getElementById("slot").value=(name);
+})
+    </script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <img src="images\cp1.jpg" height ="50px"> <br>
+                <h1>Find a slot for your Car </h1>
+                <h1>Please register yourself</h1>
+                <form action="register.php" method="post">
+                <div class="form-input">
+                    <input type="text" placeholder="First Name" class="text-field" name="first_name">
+                    <div class="form-input">
+                        <input type="text" placeholder="Last Name" class="text-field" name="last_name">
+                        <div class="form-input">
+                            <input type="text" placeholder="Email" class="text-field" name="email">
+                <div class="form-input">
+                    <input type="text" placeholder="Mobile Number" class="text-field" name="mob_number">
+                </div>
+                <div class="form-input">
+                    <input type="password" class="text-field" placeholder="Password" name="password">
+                </div>
+                <div class="form-checkbox">
+                 <input type="checkbox">
+                 <label for="">Keep me Signed-in</label> <br>
+                               
+                 
+                </div>
+                <div class="form-input">
+                    <button type="submit"><a href="index.html">Submit</a></button>
+                </div>
+                <div class="form-input">
+                    <button><a href="Welcome.html">Home</a></button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h6 id="copyright">&copy;Wolfpack Group Pvt Ltd </h6>
+    </div>  
+</body>
+ 
+</html>
